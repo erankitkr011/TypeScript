@@ -1,0 +1,13 @@
+At compiling time i dont want to create js file then i have to uncomment "noEmitOnError": true, in tsconfig.json file present on line 70.
+
+tsc --init for tsconfig.json file
+
+"rootDir": "./src", 
+"outFile": "./js", 
+
+"noImplicitAny": true, 
+
+
+
+for refreshing we use tsc --watch
+and nodemon for js file
